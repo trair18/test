@@ -1,0 +1,8 @@
+image: java:8
+
+stages:
+  - test
+
+build:
+  stage: test
+  script: ./mvnw test
